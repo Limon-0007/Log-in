@@ -172,6 +172,21 @@ form {
   width: 50%;
 }
 
+.forget-pass a {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+    color: #333;
+    transition: 0.5s;
+}
+
+.forget-pass a:hover {
+    color: blue;
+}
+
 .footer  {
   margin-top: 30px;
   font-size: 14px;
