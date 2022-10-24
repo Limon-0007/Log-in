@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="sass source/stylesheets/index.scss build/stylesheets/index.css"
-    />
-
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
@@ -40,10 +35,11 @@
           <input
             class="input-field"
             type="password"
-            id="pass"
+            id="password"
             placeholder="password"
             required
           />
+          <span><i id="eye" class="fa fa-eye" onclick = "toggle()"></i></span>
         </div>
 
         <div class="checkbox">
@@ -70,6 +66,7 @@
     <!-- log in page ends here -->
 
 
+   <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/f32a350683.js"
       crossorigin="anonymous"

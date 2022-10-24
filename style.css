@@ -59,7 +59,6 @@ body {
 }
 
 form {
-  padding: 7px;
   position: relative;
   left: 15%;
   top: 5%;
@@ -87,6 +86,13 @@ form {
   font-size: 16px;
 }
 
+span i {
+  position: absolute;
+  left: 53%;
+  top: 27%;
+}
+
+
 .checkbox {
   padding: 10px 4px;
   display: flex;
@@ -100,7 +106,7 @@ form {
 }
 
 .checkbox input {
- width: 10px;
+  width: 10px;
 }
 
 .hbtn {
@@ -173,21 +179,21 @@ form {
 }
 
 .forget-pass a {
-    cursor: pointer;
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 13px;
-    position: relative;
-    left: 20px;
-    color: #333;
-    transition: 0.5s;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  position: relative;
+  left: 20px;
+  color: #333;
+  transition: 0.5s;
 }
 
 .forget-pass a:hover {
-    color: blue;
+  color: blue;
 }
 
-.footer  {
+.footer {
   margin-top: 30px;
   font-size: 14px;
 }
@@ -203,7 +209,6 @@ form {
 }
 
 /* responsive part starts from here */
-
 
 @media (max-width: 420px) {
   .container {
@@ -225,6 +230,13 @@ form {
     left: 35%;
     top: 5%;
   }
+
+  span i {
+    position: absolute;
+    left: 58%;
+    top: 27%;
+  }
+  
 }
 
 @media (max-width: 280px) {
@@ -252,5 +264,11 @@ form {
     position: relative;
     left: 34%;
     top: 5%;
+  }
+
+  span i {
+    position: absolute;
+    left: 70%;
+    top: 27%;
   }
 }
