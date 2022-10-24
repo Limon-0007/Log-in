@@ -191,6 +191,7 @@ span i {
 
 .forget-pass a:hover {
   color: blue;
+  text-decoration: underline;
 }
 
 .footer {
@@ -206,6 +207,7 @@ span i {
 
 .footer a:hover {
   color: blue;
+  text-decoration: underline;
 }
 
 /* responsive part starts from here */
@@ -272,3 +274,6 @@ span i {
     top: 27%;
   }
 }
+
+
+/* the end */
