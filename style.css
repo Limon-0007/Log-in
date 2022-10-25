@@ -56,8 +56,17 @@ body {
   margin-top: 7px;
   font-family: 'Freehand', cursive;
   color: gray;
+  position: relative;
 }
-
+.text h3::after {
+  content: "";
+  height: 3px;
+  width: 100px;
+  position: absolute;
+  background-image: linear-gradient(to right, #7e7a8a, #d6d48c);
+  bottom: 15%;
+  left: 35%;
+}
 .input-icons i {
   position: absolute;
 }
