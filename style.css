@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -49,9 +51,10 @@ body {
 }
 
 .text h3 {
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 7px;
+  font-family: 'Freehand', cursive;
 }
 
 .input-icons i {
@@ -83,7 +86,8 @@ form {
 }
 ::placeholder {
   color: #333;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 span i {
@@ -99,8 +103,8 @@ span i {
 }
 
 .checkbox label {
-  font-family: sans-serif;
-  font-size: 14px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 12px;
   font-weight: 500;
   margin-left: 8px;
 }
@@ -125,7 +129,7 @@ span i {
   margin-top: 15px;
   font-size: 16px;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .hbtn i {
@@ -178,18 +182,18 @@ span i {
   width: 50%;
 }
 
-.forget-pass a {
+.checkbox a {
   cursor: pointer;
-  font-family: sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
   position: relative;
   left: 20px;
   color: #333;
   transition: 0.5s;
 }
 
-.forget-pass a:hover {
+.checkbox a:hover {
   color: blue;
   text-decoration: underline;
 }
@@ -197,12 +201,14 @@ span i {
 .footer {
   margin-top: 30px;
   font-size: 14px;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .footer a {
   color: #333;
   font-weight: 600;
   transition: 0.3s;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .footer a:hover {
@@ -214,7 +220,7 @@ span i {
 
 @media (max-width: 420px) {
   .container {
-    height: 400px;
+    height: 425px;
     width: 280px;
   }
 
@@ -243,14 +249,14 @@ span i {
 
 @media (max-width: 280px) {
   .container {
-    height: 400px;
-    width: 240px;
+    height: 420px;
+    width: 265px;
     overflow: hidden;
   }
 
   .container::after {
     content: "";
-    transform: rotate(-25deg);
+    transform: rotate(-15deg);
   }
 
   form {
@@ -270,7 +276,7 @@ span i {
 
   span i {
     position: absolute;
-    left: 70%;
+    left: 60%;
     top: 27%;
   }
 }
