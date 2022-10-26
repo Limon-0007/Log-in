@@ -57,6 +57,7 @@ body {
   font-family: 'Freehand', cursive;
   color: gray;
   position: relative;
+  /* clip-path: polygon(0 48%, 100% 48%, 94% 66%, 100% 79%, 0 80%, 6% 65%); */
 }
 .text h3::after {
   content: "";
